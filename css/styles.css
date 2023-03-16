@@ -314,7 +314,7 @@ address {
 }
 
 .footer-container {
-  width: 264px;
+  max-width: 264px;
   display: flex;
   flex-direction: column;
 }
@@ -357,14 +357,7 @@ address {
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
-  row-gap: 48px;
-  column-gap: 24px;
-}
-
-.portfolio-list-item {
-  width: 360px;
-  height: 420px;
-  /* border: 1px solid var(--header-shadow-color); */
+  gap: 48px 24px;
 }
 
 /* .portfolio-list-item:not(:nth-child(3n)) {
