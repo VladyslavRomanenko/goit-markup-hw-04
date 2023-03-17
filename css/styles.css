@@ -253,7 +253,6 @@ address {
   font-weight: 500;
   font-size: var(--primary-font-size);
   line-height: 1.5;
-  align-items: center;
   letter-spacing: 0.04em;
   color: var(--white-background-color);
   background-color: var(--primary-brand-color);
@@ -314,7 +313,6 @@ address {
 /* =================== TEAM =================== */
 .section-team {
   background-color: var(--light-color);
-  max-width: 1440px;
 }
 
 .team-list {
@@ -395,14 +393,12 @@ address {
   fill: var(--subtle-text-color);
 }
 
-.customer-list-link:hover,
-.customer-list-link:hover {
-  border: 1px solid var(--pressed-state-color);
+.customer-list-link:hover .customer-icon {
+  fill: var(--pressed-state-color);
 }
 
-.customer-icon:hover,
-.customer-icon:focus {
-  fill: var(--pressed-state-color);
+.customer-list-link:hover {
+  border: 1px solid var(--pressed-state-color);
 }
 
 /*=================== /CUSTOMER=================== */
@@ -412,7 +408,6 @@ address {
   background-color: var(--dark-color);
   padding-top: 100px;
   padding-bottom: 100px;
-  max-width: 1440px;
 }
 
 .footer-container {
